@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+#MyClockDisplay{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 7vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#MyDayDisplay{
+    position: absolute;
+    top: 95%;
+    left: 90%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 2vw;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    #MyDayDisplay{
+        font-size: 50px;
+        padding: 0px;
+    }
+} */
+
+/* @media (min-width: 600px) 
+ {
+    .h{
+    font-size: 50px;
+    padding: 0px;
+}
+ } */
